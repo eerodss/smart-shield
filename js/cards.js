@@ -28,7 +28,7 @@ function criarCardProduto(produto) {
                 </div>
 
                 <button class="buy-button"
-                    onclick="window.location.href='../individual.html?id=${produto.id}'">
+                    onclick="window.location.href='./individual.html?id=${produto.id}'">
                     Ver Produto
                 </button>
             </div>

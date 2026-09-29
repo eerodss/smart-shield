@@ -107,6 +107,6 @@ if (anoFooter) anoFooter.textContent = new Date().getFullYear();
 const logoHeader = document.querySelector("#logo");
 if (logoHeader) {
   logoHeader.addEventListener("click", () => {
-    window.location.href = "../index.html";
+    window.location.href = "./index.html";
   });
 }

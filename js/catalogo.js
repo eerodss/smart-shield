@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const breadcrumb = document.querySelector("#breadcrumb");
   if (breadcrumb) {
     breadcrumb.innerHTML = `
-        <a href="../index.html">Início</a>
+        <a href="./index.html">Início</a>
         <span>›</span>
         <span>Catálogo</span>
     `;
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
   productCards.forEach((card) => {
     card.addEventListener("click", () => {
       const id = card.dataset.id;
-      window.location.href = `../individual.html?id=${id}`;
+      window.location.href = `./individual.html?id=${id}`;
     });
   });
 });

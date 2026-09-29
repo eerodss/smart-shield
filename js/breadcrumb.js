@@ -4,7 +4,7 @@ function criarBreadcrumb() {
   if (!breadcrumb) return;
 
   let html = `
-        <a href="../index.html">Início</a>
+        <a href="./index.html">Início</a>
     `;
 
   if (document.querySelector(".products-page")) {
@@ -25,10 +25,10 @@ function criarBreadcrumb() {
 
     html += `
             <span class="separator">></span>
-            <a href="../catalogo.html">Catálogo</a>
+            <a href="./catalogo.html">Catálogo</a>
 
             <span class="separator">></span>
-            <a href="../catalogo.html?categoria=${produto.categoria}">${categorias[produto.categoria]}</a>
+            <a href="./catalogo.html?categoria=${produto.categoria}">${categorias[produto.categoria]}</a>
 
             <span class="separator">></span>
             <span>${produto.nome}</span>

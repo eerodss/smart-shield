@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     grid.innerHTML += `
         <div class="featured-card"
             style="--hover-rotate:${rotacao}deg;"
-            onclick="window.location.href='../individual.html?id=${produto.id}'">
+            onclick="window.location.href='./individual.html?id=${produto.id}'">
             <span class="badge ${produto.badgeClass}">${produto.badge}</span>
             <img src="${produto.imagem}" alt="${produto.nome}" loading="lazy">
             <h3>${produto.nome}</h3>
@@ -28,13 +28,13 @@ document.addEventListener("DOMContentLoaded", () => {
 const distribuicao = document.querySelector("#distribuicao");
 if (distribuicao) {
   distribuicao.addEventListener("click", () => {
-    window.open("../parceiros.html");
+    window.open("./parceiros.html");
   });
 }
 
 document.querySelectorAll(".categoria-card").forEach((card) => {
   card.addEventListener("click", () => {
     const filtro = card.dataset.filter;
-    window.location.href = `../catalogo.html?categoria=${filtro}`;
+    window.location.href = `./catalogo.html?categoria=${filtro}`;
   });
 });

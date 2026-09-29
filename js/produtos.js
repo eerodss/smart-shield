@@ -72,8 +72,8 @@ const produtos = [
     categoria: "peliculas",
     badge: "PREMIUM",
     badgeClass: "badge-premium",
-    pagina: "../individual.html?id=japonesa",
-    imagem: "../imagens/produtos/japonesa.webp",
+    pagina: "./individual.html?id=japonesa",
+    imagem: "./imagens/produtos/japonesa.webp",
     classe: "img-japonesa",
     cta: {
       titulo:
@@ -135,8 +135,8 @@ const produtos = [
     categoria: "peliculas",
     badge: "FOSCA",
     badgeClass: "badge-comum",
-    pagina: "../individual.html?id=basicfosco",
-    imagem: "../imagens/produtos/basicfosco.webp",
+    pagina: "./individual.html?id=basicfosco",
+    imagem: "./imagens/produtos/basicfosco.webp",
     classe: "img-basicfosco",
     cta: {
       titulo:
@@ -199,8 +199,8 @@ const produtos = [
     categoria: "peliculas",
     badge: "ESSENCIAL",
     badgeClass: "badge-comum",
-    pagina: "../individual.html?id=basichd",
-    imagem: "../imagens/produtos/basichd.webp",
+    pagina: "./individual.html?id=basichd",
+    imagem: "./imagens/produtos/basichd.webp",
     classe: "img-basichd",
     cta: {
       titulo:
@@ -282,8 +282,8 @@ const produtos = [
     categoria: "peliculas",
     badge: "GRIP FOSCO",
     badgeClass: "badge-destaque",
-    pagina: "../individual.html?id=neofosco",
-    imagem: "../imagens/produtos/neogripfosco.webp",
+    pagina: "./individual.html?id=neofosco",
+    imagem: "./imagens/produtos/neogripfosco.webp",
     classe: "img-neogripfosco",
     cta: {
       titulo:
@@ -358,8 +358,8 @@ const produtos = [
     categoria: "peliculas",
     badge: "EXCLUSIVA",
     badgeClass: "badge-destaque",
-    pagina: "../individual.html?id=golden",
-    imagem: "../imagens/produtos/golden.webp",
+    pagina: "./individual.html?id=golden",
+    imagem: "./imagens/produtos/golden.webp",
     classe: "img-golden",
     cta: {
       titulo:
@@ -422,8 +422,8 @@ const produtos = [
     categoria: "peliculas",
     badge: "ANTIREFLEXO",
     badgeClass: "badge-comum",
-    pagina: "../individual.html?id=uvfosca",
-    imagem: "../imagens/produtos/uvfosca.webp",
+    pagina: "./individual.html?id=uvfosca",
+    imagem: "./imagens/produtos/uvfosca.webp",
     classe: "img-uvfosca",
     cta: {
       titulo:
@@ -486,8 +486,8 @@ const produtos = [
     categoria: "peliculas",
     badge: "CRISTALINA",
     badgeClass: "badge-comum",
-    pagina: "../individual.html?id=uvhd",
-    imagem: "../imagens/produtos/uvhd.webp",
+    pagina: "./individual.html?id=uvhd",
+    imagem: "./imagens/produtos/uvhd.webp",
     classe: "img-uvfosca",
     cta: {
       titulo:
@@ -551,8 +551,8 @@ const produtos = [
     categoria: "peliculas",
     badge: "PRIVACIDADE",
     badgeClass: "badge-comum",
-    pagina: "../individual.html?id=uvprivlisa",
-    imagem: "../imagens/produtos/uvprivlisa.webp",
+    pagina: "./individual.html?id=uvprivlisa",
+    imagem: "./imagens/produtos/uvprivlisa.webp",
     classe: "img-uvprivlisa",
     cta: {
       titulo:
@@ -620,8 +620,8 @@ const produtos = [
     categoria: "peliculas",
     badge: "PRIVACIDADE",
     badgeClass: "badge-comum",
-    pagina: "../individual.html?id=uvprivfosca",
-    imagem: "../imagens/produtos/uvprivfosca.webp",
+    pagina: "./individual.html?id=uvprivfosca",
+    imagem: "./imagens/produtos/uvprivfosca.webp",
     classe: "img-uvprivfosca",
     cta: {
       titulo:
@@ -689,8 +689,8 @@ const produtos = [
     relacionadosCategorias: ["maquinas", "acessorios"],
     badge: "ESSENCIAL",
     badgeClass: "badge-comum",
-    pagina: "../individual.html?id=maqb",
-    imagem: "../imagens/produtos/maq.webp",
+    pagina: "./individual.html?id=maqb",
+    imagem: "./imagens/produtos/maq.webp",
     classe: "img-maqb",
     cta: {
       titulo:
@@ -797,8 +797,8 @@ const produtos = [
     categoria: "acessorios",
     badge: "BANCADA",
     badgeClass: "badge-comum",
-    pagina: "../individual.html?id=tapapoio",
-    imagem: "../imagens/produtos/tapetep.webp",
+    pagina: "./individual.html?id=tapapoio",
+    imagem: "./imagens/produtos/tapetep.webp",
     classe: "img-tapetep",
     cta: {
       titulo:
@@ -880,8 +880,8 @@ const produtos = [
     categoria: "acessorios",
     badge: "LIMPEZA",
     badgeClass: "badge-comum",
-    pagina: "../250ml.html",
-    imagem: "../imagens/produtos/limpa250.webp",
+    pagina: "./250ml.html",
+    imagem: "./imagens/produtos/limpa250.webp",
     classe: "img-250",
     cta: {
       titulo:
@@ -945,8 +945,8 @@ const produtos = [
     categoria: "acessorios",
     badge: "ALTO RENDIMENTO",
     badgeClass: "badge-comum",
-    pagina: "../500ml.html",
-    imagem: "../imagens/produtos/limpa500.webp",
+    pagina: "./500ml.html",
+    imagem: "./imagens/produtos/limpa500.webp",
     classe: "img-500",
     cta: {
       titulo:

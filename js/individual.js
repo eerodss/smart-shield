@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <section class="produto-nao-encontrado">
                 <h1>Produto não encontrado</h1>
                 <p>O produto que você procura não existe ou foi removido.</p>
-                <a href="../catalogo.html" class="btn primary">Ver Catálogo</a>
+                <a href="./catalogo.html" class="btn primary">Ver Catálogo</a>
             </section>
         `;
     }
