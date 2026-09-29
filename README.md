@@ -39,7 +39,7 @@ main/
 
 ## 🌐 Site
 
-[Visitar o site](https://eerodss.github.io/smart/)
+[Visitar o site](https://eerodss.github.io/smart-shield/)
 
 ---
 
