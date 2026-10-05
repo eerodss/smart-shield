@@ -60,7 +60,9 @@ if (formParceiro) {
     };
 
     // 5. Envia pro Supabase
-    const { error } = await supabase.from("parceiros_leads").insert([novoLead]);
+    const { error } = await supabaseClient
+      .from("parceiros_leads")
+      .insert([novoLead]);
 
     if (error) {
       console.error("Erro ao enviar cadastro:", error);
