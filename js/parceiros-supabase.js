@@ -7,7 +7,10 @@ const SUPABASE_URL = "https://geahsdgmzifsjegtpusw.supabase.co";
 const SUPABASE_ANON_KEY =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWhzZGdtemlmc2plZ3RwdXN3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA3MzA2NzAsImV4cCI6MjEwNjMwNjY3MH0.iu54tsWJqSMRHzWb-OQbiiG5fYF7Rx44cgJQN-90lnE";
 
-const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const supabaseClient = window.supabase.createClient(
+  SUPABASE_URL,
+  SUPABASE_ANON_KEY,
+);
 
 // 2. Pega o formulário na página
 const formParceiro = document.getElementById("formParceiro");
