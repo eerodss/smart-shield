@@ -13,18 +13,18 @@ const supabaseClient = window.supabase.createClient(
 );
 
 // 2. Pega o formulário na página
-const formParceiro = document.getElementById("formParceiro");
+const formParceiroSupabase = document.getElementById("formParceiro");
 const formAviso = document.getElementById("formAviso");
 
-if (formParceiro) {
-  formParceiro.addEventListener("submit", async (event) => {
+if (formParceiroSupabase) {
+  formParceiroSupabase.addEventListener("submit", async (event) => {
     event.preventDefault(); // impede o envio "tradicional" da página
 
     formAviso.textContent = "Enviando...";
     formAviso.style.color = "inherit";
 
     // 3. Monta o objeto com os dados do formulário
-    const formData = new FormData(formParceiro);
+    const formData = new FormData(formParceiroSupabase);
 
     // Campos simples
     const nome = formData.get("nome");
@@ -73,7 +73,7 @@ if (formParceiro) {
       formAviso.textContent =
         "Cadastro enviado com sucesso! Nossa equipe vai entrar em contato em breve.";
       formAviso.style.color = "green";
-      formParceiro.reset();
+      formParceiroSupabase.reset();
     }
   });
 }
