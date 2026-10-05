@@ -11,6 +11,33 @@
 <link rel="icon" type="image/png" href="imagens/fav.png">
 </head>
 
+<script>
+    fetch("/api/produtos")
+        .then(response => response.json())
+        .then(produtos => {
+            const lista = document.querySelector("#lista-produtos");
+            produtos.forEach(produto => {
+
+                const card = document.createElement("div");
+                card.classList.add("product-card");
+                card.innerHTML = `
+                    <img src="${produto.imagem}" alt="${produto.nome}">
+
+                    <div class="product-info">
+                        <h3>${produto.nome}</h3>
+                        <p>${produto.categoria}</p>
+                        <p>${produto.descricao}</p>
+                    </div>
+                `;
+                lista.appendChild(card);
+            }, console.log("Produtos carregados com sucesso:", produtos)
+            )
+        })
+        .catch(error => {
+            console.error("Erro ao buscar produtos:", error);
+        });
+</script>
+
 <body>
 <header>
     <div class="logo" id="logo">
@@ -80,7 +107,7 @@
     </nav>
 </header>
 
-<section class="products-page">
+<section class="products-page"> 
 <nav class="breadcrumb" id="breadcrumb"></nav>
 
 
@@ -135,8 +162,9 @@
     class="search-products">
     </div>
 
-    <!-- PRODUTOS -->
-    <div class="products-grid"></div>
+    <div id="lista-produtos" class="products-grid">
+        <!-- cards -->
+    </div>
 </section>
 
 <footer>

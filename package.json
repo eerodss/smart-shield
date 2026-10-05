@@ -1,0 +1,26 @@
+{
+  "name": "smart",
+  "version": "1.0.0",
+  "description": "Site institucional desenvolvido para a **Smart Shield**, com foco em apresentação da empresa, catálogo de produtos e captação de parceiros.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eerodss/smart-shield.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/eerodss/smart-shield/issues"
+  },
+  "homepage": "https://github.com/eerodss/smart-shield#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1"
+  }
+}
